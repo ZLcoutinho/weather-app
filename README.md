@@ -1,5 +1,6 @@
 # weather-app
-aplicativo simples de olhar o clima:https://clima-hoje.netlify.app/                                                                                                                                                                       
+aplicativo simples de olhar o clima :)
+
 autor das images do background de dia e noite: upklyak                                                                                                                                                                                                                                                                            
 |                                                                                                                                                                                           
 background noite: https://www.freepik.com/free-vector/couple-camp-with-tent-campfire-night_7741551.htm#page=1&query=camping%20night&position=4                            
