@@ -1,0 +1,128 @@
+* {margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box    ;}
+
+html, body {
+    height: 100%;
+    text-align: center;}
+
+div.container {
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1%;
+    position: relative;
+}
+
+h2.title{
+    color: #373737;
+    font-size: 40px;
+}
+
+div.card-weather {
+    height: 80%; 
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: url('./images/day.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 1%;
+    position: relative;
+}
+
+div.shadow {
+    width: 93%;
+    height: 13px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input.weather-city {
+    width: 50%;
+    height: 25px;
+    border: 0;
+    padding-left: 5px;
+}
+
+input[type="submit"] {
+    height: 23px;
+    border: 0;
+    margin-left: -43px;
+    background-color: white;
+    color: transparent;
+    background-image: url('icons/search.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: 0;
+    cursor: pointer;
+}
+
+div.weather-temperature {
+    color: #3096D4;
+    font-size: 30px;
+}
+
+div.city-name-container {
+    width: 100%;
+    color: white;
+    margin-top: 45px;
+}
+
+h2.city-name {
+    font-size: 60px;
+    color: #0075BC;
+    
+}
+
+div.weather-icon {
+    height: 70px;
+    width: 70px;
+    background-color: #DFF1FB;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-image: url(./icons/7.svg);
+    background-position: center;
+}
+
+div.weather-text {
+    color: #0075BC;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1050px) {
+    div.card-weather {
+        height: 90%;
+        width: 80%;
+    }
+
+    div.shadow {
+        width: 93%;
+        bottom: -12px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    div.card-weather {
+        width: 100%;
+    }
+
+    div.shadow {
+        width: 90%;
+        bottom: -12px;
+    }
+
+    div.container {
+        padding: 0%;
+        position: relative;
+    }
+}

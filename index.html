@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="sortcut icon" href="./icons/weatherIcon.ico" type="image/x-icon" />
+    <title>Clima hoje</title>
+</head>
+<body>
+<h2 class="title">clima hoje</h2><!--title-->
+  <div class="container">
+    <div value-js="container-weather" class="card-weather">
+      <form value-js="form-weather" class="form-weather-city">
+          <input required name="value" autofocus placeholder="Buscar por clima ex: miami" class="input-city weather-city" type="text">
+          <input type="submit">
+      </form><!--form-weather-city-->
+      <div value-js="weather-icon" class="weather-icon">
+      </div><!--weather-icon-->
+      <div class="weather-text">
+          <p value-js="weather-text-paragraph">Predominantemente nublado</p>
+      </div><!---->
+      <div class="city-name-container">
+          <h2 value-js="city-name" class="city-name">MIAMI</h2><!--city-name->
+      </div><!--city-name-container-->
+      <div class="weather-temperature">
+          <h2 value-js="temperature" class="temperature">27°C</h2>
+      </div><!--weather-temperature-->
+      <div class="shadow">
+      </div><!--shadow-->
+  </div><!--card-weather-->
+  </div>
+  </div><!--container--> 
+<script src="./weather.js"></script>  
+<script src="./app.js"></script> 
+</body>
+</html>
